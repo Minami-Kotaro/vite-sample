@@ -1,0 +1,6 @@
+#80文字で折り返す
+printWidth: 80
+#半角スペース2つ
+tabWidth: 2
+singleQuote: true
+semi: false

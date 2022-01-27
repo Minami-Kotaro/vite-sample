@@ -1,0 +1,18 @@
+{
+  // コードフォーマッターとしてprettierを指定する。
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // ファイル保存時にコードフォーマッターを実行しない。
+  "editor.formatOnSave": false,
+  // ファイル保存時にESLIntが実行される。
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
